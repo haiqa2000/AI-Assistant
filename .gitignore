@@ -1,0 +1,60 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and debug
+*.log
+
+# Model/data files
+*.h5
+*.ckpt
+*.sqlite3
+*.db
+*.json
+*.csv
+
+# Vosk/Spacy/ML models
+models/
+*.model
+*.bin
+
+# Cloud sync/credentials
+*.key
+*.pem
+*.env
+
+# Test output
+htmlcov/
+coverage.xml
+*.cover
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Installer files
+*.whl
+
+# Misc
+*.bak
+*.swp
